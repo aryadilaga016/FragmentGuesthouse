@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".home">
+
+    <ImageView
+        android:id="@+id/im_depan"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/gapura"/>
+
+    <TextView
+        android:id="@+id/tv_depan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+        android:text="Gate" />
+
+    <ImageView
+        android:id="@+id/im_halaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/halaman"/>
+
+    <TextView
+        android:id="@+id/tv_halaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="410dp"
+        android:text="Garden" />
+
+    <ImageView
+        android:id="@+id/im_kolam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/pool"/>
+
+    <TextView
+        android:id="@+id/tv_kolam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="670dp"
+        android:text="Pool" />
+
+
+</FrameLayout>
